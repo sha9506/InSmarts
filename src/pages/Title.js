@@ -28,7 +28,7 @@ const Title = () =>
                  remarkable efficiency. Explore InSmarts today and reclaim your information edge.</div>
         </div>
         <div className='title-summary-button'>
-             Search and Summarize
+             <a href='/search'>Search and Summarize</a>
         </div>
     </div>
     <Footer></Footer></div>)

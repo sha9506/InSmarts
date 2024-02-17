@@ -21,7 +21,7 @@ const Navbar = () =>
             </div>
             <div className='top-bar-button'>
                 <div className='top-bar-button-item'>
-                    <a href='/home'>HOME</a>
+                    <a href='/'>HOME</a>
                 </div>
                 <div className='top-bar-button-item'>
                     <a href='/history'>HISTORY</a>

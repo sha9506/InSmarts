@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Title from "./Title";
 import Footer from "../components/Footer/Footer";
-import './Home.css';
+import './SearchResults.css';
 import ticket from '../assets/ticket.png';
 import ticketR from '../assets/ticketR.png';
 import ticketL from '../assets/ticketL.png';

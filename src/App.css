@@ -1,3 +1,4 @@
 body{
-  background:url('./assets/background.jpg'), rgb(247, 236, 191) 50% / cover no-repeat;;
+  background:url('./assets/background.png'),#F3CEA1 100% / cover no-repeat;
+  background-color: #F3CEA1;
 }
