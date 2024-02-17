@@ -1,10 +1,13 @@
 import React from 'react'
 import './Title.css'
-import search from '../Navbar/assets/search.png';
+import search from '../components/Navbar/assets/search.png';
+import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
 
 const Title = () =>
 {
-    return( <div className='title' >
+    return( <div><Navbar></Navbar>
+    <div className='title' >
         <div className='title-head'>
            <div className='title-head-item'> Cut through the news noise in seconds</div>
         </div>
@@ -27,7 +30,8 @@ const Title = () =>
         <div className='title-summary-button'>
              Search and Summarize
         </div>
-    </div>)
+    </div>
+    <Footer></Footer></div>)
 }
 
 export default Title
