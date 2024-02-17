@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/InSmarts/static/css/main.ef009e40.css",
+    "main.js": "/InSmarts/static/js/main.2556b08a.js",
+    "static/media/background.png": "/InSmarts/static/media/background.489a18663d8723c82096.png",
+    "static/media/virat.png": "/InSmarts/static/media/virat.48f9173fe53996cf0361.png",
+    "static/media/ticket.png": "/InSmarts/static/media/ticket.da4d1ebe74ff20f91d7a.png",
+    "static/media/ticketL.png": "/InSmarts/static/media/ticketL.5b3619220d29b9d30804.png",
+    "static/media/ticketR.png": "/InSmarts/static/media/ticketR.7e2987d7c1001b982d2a.png",
+    "static/media/skype.svg": "/InSmarts/static/media/skype.4151f09282eec2ab3355d57122a82bb0.svg",
+    "static/media/instagram.svg": "/InSmarts/static/media/instagram.5c9375070c200cf35757404019d65eff.svg",
+    "static/media/google.svg": "/InSmarts/static/media/google.fdf450204cb57d47edbec40b2631d936.svg",
+    "static/media/pinterest.svg": "/InSmarts/static/media/pinterest.2135fa4136a08a457e7359bd46cd978c.svg",
+    "static/media/facebook.svg": "/InSmarts/static/media/facebook.7fe5f0d56c7cb85e02434e6534494010.svg",
+    "index.html": "/InSmarts/index.html",
+    "main.ef009e40.css.map": "/InSmarts/static/css/main.ef009e40.css.map",
+    "main.2556b08a.js.map": "/InSmarts/static/js/main.2556b08a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef009e40.css",
+    "static/js/main.2556b08a.js"
+  ]
+}
