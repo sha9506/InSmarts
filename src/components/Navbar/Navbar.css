@@ -1,0 +1,95 @@
+.top-bar
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar-date
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+.top-bar-icons
+{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left:-530px ;
+}
+.icon
+{
+    margin-right: 10px;
+
+}
+.top-bar-button
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.top-bar-button-item
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.nav-title
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:10px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-title-insmart
+{
+    color: #000;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50px;
+}
+.logo-insmart
+{
+    background-image: url('./assets/insmart.png');
+    width: 86px;
+    height: 86px;
+}
+.nav-title-description
+{
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-title-line
+{
+    background-image: url('./assets/line.png');
+    width: 809px;
+    height: 40px;
+    margin-bottom: -80px;
+}

@@ -1,0 +1,56 @@
+.footer
+{
+    background-color: black;
+    height: 200px;
+    color: white;
+    padding: 10px;
+}
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer-insmart
+{
+    color: #FFF;
+font-family: "Mate SC";
+font-size: 54px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-description
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid white;
+    width: 564px;
+    padding: 10px;
+    text-align: center;
+
+}
+.footer-line
+{
+    background-image: url('../Navbar/assets/footerLine.png');
+    width: 406.953px;
+    height: 24.289px;
+    flex-shrink: 0;
+    margin-top: -10px;
+}
+.footer-credits
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}

@@ -1,7 +1,3 @@
-.background
-{
-  background:url('./assets/background.jpg'), lightgray 50% / cover no-repeat;;
-  width: 1900px;
-  height: 1080px;  
-
+body{
+  background:url('./assets/background.jpg'), rgb(247, 236, 191) 50% / cover no-repeat;;
 }
