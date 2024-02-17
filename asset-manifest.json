@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InSmarts/static/css/main.ef009e40.css",
-    "main.js": "/InSmarts/static/js/main.2556b08a.js",
+    "main.js": "/InSmarts/static/js/main.319c3a96.js",
     "static/media/background.png": "/InSmarts/static/media/background.489a18663d8723c82096.png",
     "static/media/virat.png": "/InSmarts/static/media/virat.48f9173fe53996cf0361.png",
     "static/media/ticket.png": "/InSmarts/static/media/ticket.da4d1ebe74ff20f91d7a.png",
@@ -14,10 +14,10 @@
     "static/media/facebook.svg": "/InSmarts/static/media/facebook.7fe5f0d56c7cb85e02434e6534494010.svg",
     "index.html": "/InSmarts/index.html",
     "main.ef009e40.css.map": "/InSmarts/static/css/main.ef009e40.css.map",
-    "main.2556b08a.js.map": "/InSmarts/static/js/main.2556b08a.js.map"
+    "main.319c3a96.js.map": "/InSmarts/static/js/main.319c3a96.js.map"
   },
   "entrypoints": [
     "static/css/main.ef009e40.css",
-    "static/js/main.2556b08a.js"
+    "static/js/main.319c3a96.js"
   ]
 }
