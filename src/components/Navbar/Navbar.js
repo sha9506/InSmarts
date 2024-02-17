@@ -11,18 +11,21 @@ const Navbar = () =>
 {
     return(<div className='navbar'>
         <div className='top-bar'>
-            <div className='top-bar-date'>MON, JAN 09, 2023 |  11.05AM IST</div>
+            <div className='top-bar-date'>MON, FEB 19, 2023 |  11.05AM IST</div>
             <div className='top-bar-icons'>
                 <div className='icon'><img src={facebook}/></div>
                 <div className='icon'><img src={google}/></div>
                 <div className='icon'><img src={instagram}/></div>
                 <div className='icon'><img src={skype} /></div>
                 <div className='icon'><img src={pinterest}/></div>
-               
             </div>
             <div className='top-bar-button'>
-                <div className='top-bar-button-item'>HOME</div>
-                <div className='top-bar-button-item'>HISTORY</div>
+                <div className='top-bar-button-item'>
+                    <a href='/home'>HOME</a>
+                </div>
+                <div className='top-bar-button-item'>
+                    <a href='/history'>HISTORY</a>
+                </div>
                 <div className='top-bar-button-item'>SIGN UP</div>
             </div>
         </div>

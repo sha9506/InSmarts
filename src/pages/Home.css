@@ -79,13 +79,13 @@ margin-top: 40px;
 }
 :hover.virat-content-read-more
 {
-    color: red;
+    color: aquamarine;
 }
 .dive-item
 {
     border-top: 2px solid black;
     margin-top: 30px;
-    width: 1440px;
+    width: 100hh;
     display: flex;
     flex-direction: column;
     justify-content: center;

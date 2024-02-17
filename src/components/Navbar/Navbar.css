@@ -16,6 +16,7 @@
     border-right: 1px solid black;
     border-left: 1px solid black;
     padding: 10px;
+    margin-left: 300px;
 }
 .top-bar-icons
 {
@@ -23,7 +24,9 @@
     height: 20px;
     display: flex;
     flex-direction: row;
-    margin-left:-530px ;
+    justify-content:flex-start ;
+    flex: 1;
+    padding-left: 10px;
 }
 .icon
 {
@@ -92,4 +95,9 @@
     width: 809px;
     height: 40px;
     margin-bottom: -80px;
+}
+
+a
+{
+    color: black;
 }
