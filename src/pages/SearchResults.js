@@ -1,34 +1,43 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Title from "./Title";
+import Home from "./Home";
 import Footer from "../components/Footer/Footer";
 import './SearchResults.css';
-import ticket from '../assets/ticket.png';
-import ticketR from '../assets/ticketR.png';
-import ticketL from '../assets/ticketL.png';
-import virat from '../assets/virat.png';
+import SearchResultCard from "../components/SearchResultCard/SearchResultCard";
 
-const Home = ()=>
+
+const newsList = [
+    {
+        content: "Rohit Sharma's instructions to Mohammed Siraj captured on stump mic during 3rd Test prove Virat Kohli correct",
+        image: 'https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRqprksER3ZS6M1gVUmWxpDe-TSdtVHethWwGvmOqalWJEFsHHVLVdNW94sHFPRuA3WlK8DqGhfPrw5B2U',
+        link : 'https://www.hindustantimes.com/cricket/rohit-sharmas-instructions-to-mohammed-siraj-captured-on-stump-mic-during-3rd-test-prove-virat-kohli-correct-101708178701744.html'
+    },
+    {
+        content: "Ravichandran Ashwin back, India spinner to rejoin team in Rajkot on Day 4 of 3rd Test against England",
+        image : 'https://www.hindustantimes.com/ht-img/img/2024/02/18/550x309/PTI02-16-2024-000259A-0_1708231136507_1708231161893.jpg',
+        link : 'https://www.hindustantimes.com/cricket/ravichandran-ashwin-back-india-spinner-returns-to-action-on-day-4-of-3rd-test-against-england-in-rajkot-101708229921963.html'
+    }
+]
+
+const SearchResults = ({searchInput=''})=>
 {
-    return (<div>
+    const [newsContent, setNewsContent]= useState(newsList);
+
+    useEffect(()=>{
+        setNewsContent(newsList.filter(item=>{item.content.toLowerCase().includes(searchInput.toLowerCase())}))
+    },[])
+
+return (<div>
      <Navbar></Navbar>
-       <div className="home-title">SEARCH RESULTS</div>
+       <div className="title">SEARCH RESULTS</div>
        <div className="search-title">
-       Virat Kohli in Recent News
+       {searchInput} in Recent News
        </div>
-       <div className="home-image">
-            <div className="image-left"><img src={ticketL}/> </div>
-            <div className="home-box">
-                <div className="virat">
-                    <img src={virat}/>
-                </div>
-                <div className="virat-content">
-                    <div className="virat-content-info">Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu adNorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    <div className="virat-content-read-more">Read more</div>
-                </div>
-            </div>
-            <div className="image-right"><img src={ticketR}/> </div>
-       </div>
+
+       {newsContent.map((item)=>{
+            return(<SearchResultCard item={item}/>)
+       })}
+
        <div className="dive-item">
             <div className="dive-title">Dive Deeper</div>
             <div className="dive-content">
@@ -44,4 +53,4 @@ const Home = ()=>
     )
 }
 
-export default Home
+export default SearchResults

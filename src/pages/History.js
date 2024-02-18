@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import Title from './Title'
+import Title from './Home'
 import Footer from '../components/Footer/Footer'
 import './History.css';
 import search from '../components/Navbar/assets/search.png';

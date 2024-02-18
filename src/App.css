@@ -1,4 +1,4 @@
 body{
-  background:url('./assets/background.png'),#F3CEA1 100% / cover no-repeat;
-  background-color: #F3CEA1;
+  background-image:url('./assets/background.png');
+  width: 100%;
 }
